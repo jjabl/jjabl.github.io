@@ -142,6 +142,9 @@ width: 11px;
 /*************************
 *******Navigation******
 **************************/
+.navbar-fixed-top {
+    background-color: rgba(0,0,0,0.5);
+}
 
 #navigation,
 .navbar-brand,
@@ -190,7 +193,7 @@ width: 11px;
 
 .navigation .navbar-nav > li.current > a {
   color: #00C7FC;
-  border-bottom: 1px solid #00C7FC;
+  border-bottom: 3px solid #00C7FC;
 }
 
 .animated-nav .navigation .navbar-nav > li.current > a {
@@ -200,7 +203,7 @@ width: 11px;
 
 .navigation .navbar-nav > li > a:focus,
 .navigation .navbar-nav > li > a:hover {
-  background-color: transparent;
+  background-color: #000; 
 }
 
 .search-form {
@@ -261,11 +264,12 @@ width: 11px;
 }
 
 .carousel-caption > div {
-  background-color: rgba(10,61,78,0.8);
-  padding: 60px 50px 80px 20%;
+/*  background-color: rgba(10,61,78,0.8);*/
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px 40px 30px 10%;
   position: absolute;
   top: 75%;
-  width: 70%;
+  width: 50%;
 }
 
 #home-carousel .carousel-inner h2 {
@@ -288,6 +292,7 @@ width: 11px;
 #nav-arrows > a {
   border: 1px solid #fff;
   color: #fff;
+  background-color: rgba(0,0,0,0.2);
   display: block;
   height: 60px;
   line-height: 76px;
@@ -309,14 +314,13 @@ width: 11px;
     left: 50px;
 }
 
-#nav-arrows > a.sl-next {
-    right: 50px;
+#nav-arrows > a:hover {
+    background-color: rgba(0,0,0,0.7);
+    border-color: #FFFFFF;
 }
 
-#nav-arrows > a.sl-next:hover {
-    background-color: #009EE3;
-    border-color: #009EE3;
-    color: #fff;
+#nav-arrows > a.sl-next {
+    right: 50px;
 }
 
 .carousel-indicators .active {

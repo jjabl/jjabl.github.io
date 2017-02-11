@@ -16,7 +16,7 @@ $(function(){
             jQuery("#navigation").css("background-color","#00C7FC");
             jQuery("#navigation").addClass("animated-nav");
         } else {
-            jQuery("#navigation").css("background-color","transparent");
+            jQuery("#navigation").css("background-color","rgba(0,0,0,0.5)");
             jQuery("#navigation").removeClass("animated-nav");
         }
     });
