@@ -839,6 +839,11 @@ figcaption.mask span {
   line-height: 24px;
 }
 
+#subscribe .col-md-7 {
+    color: #fff;
+    font-size: 20px;
+}
+
 .subscription-form {
   color: #fff;
   position: relative;
