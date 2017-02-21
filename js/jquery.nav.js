@@ -138,6 +138,7 @@
 			return returnValue;
 		},
 
+/*
 		handleClick: function(e) {
 			var self = this;
 			var $link = $(e.currentTarget);
@@ -175,6 +176,7 @@
 
 			e.preventDefault();
 		},
+		*/
 
 		scrollChange: function() {
 			var windowTop = this.$win.scrollTop();
